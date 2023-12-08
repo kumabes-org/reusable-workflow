@@ -10,9 +10,9 @@ on:
 jobs:
   reusable_workflow_job:
     runs-on: ubuntu-latest
-    environment: release
+    environment: develop
     steps:
       - name: "Step#01"
         run: |
-          echo "Step#01 - release"
+          echo "Step#01 - develop"
         shell: bash
